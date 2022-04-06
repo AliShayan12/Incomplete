@@ -1,0 +1,110 @@
+.All {
+  padding: 20px;
+  margin: 30px;
+  margin-top: 0.12px;
+  color: black;
+  border-radius: 4px;
+  height: 60%;
+  width: 25%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.29);
+  display: inline-block;
+  float: left;
+  background-color: white;
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  width: 336.88px;
+  height: 674.58px;
+  left: 0px;
+  top: 022px;
+
+  background: #134b5f;
+  border: 8px solid #ffffff;
+  box-shadow: 6.55726px 13.1145px 39.3436px rgba(0, 0, 0, 0.05),
+    inset -3.27863px -6.55726px 19.6718px rgba(0, 0, 0, 0.1);
+  border-radius: 19.6718px;
+  transform: rotate(130.05deg);
+}
+
+.shape1 {
+  position: absolute;
+  width: 300.88px;
+  height: 374.58px;
+  left: 0px;
+  top: 0px;
+
+  background: #134b5f;
+  border: 8px solid #ffffff;
+  box-shadow: 6.55726px 13.1145px 39.3436px rgba(0, 0, 0, 0.15);
+  border-radius: 19.6718px;
+  transform: rotate(130.05deg);
+}
+
+h2 {
+  font-size: 25px;
+  color: #fafeff;
+  position: relative;
+  height: 60px;
+  left: 23px;
+  top: 106px;
+}
+
+h4 {
+  position: relative;
+  width: 503px;
+  height: 20px;
+  left: 29px;
+  top: 66px;
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #fafeff;
+}
+
+:root {
+  --mdc-theme-primary: #134b5f;
+}
+
+.buttons {
+  margin-bottom: 20px;
+  padding-left: 1000px;
+}
+
+.textfields {
+  padding-left: 1000px;
+}
+
+.C1 {
+  position: absolute;
+  top: 23px;
+  right: 140px;
+}
+
+.R1 {
+  position: absolute;
+  top: 79px;
+  right: 140px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: gray;
+  text-align: center;
+  color: aliceblue;
+}
+
+.buttons :hover{
+  background: #26657c;
+}
